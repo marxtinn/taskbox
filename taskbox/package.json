@@ -22,7 +22,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_efb9baebd61fdb3"
   },
   "dependencies": {
     "pinia": "^3.0.3",
@@ -37,6 +38,7 @@
     "@storybook/vue3-vite": "^9.0.8",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",
+    "chromatic": "^12.2.0",
     "eslint": "^8.57.0",
     "eslint-plugin-storybook": "^9.0.8",
     "eslint-plugin-vue": "^9.23.0",
